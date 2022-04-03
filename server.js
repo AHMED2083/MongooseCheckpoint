@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express()
-const connectDB=require('./connectDB.js');
+const connectDB=require('./connectDB');
 const contact=require('./Model.js');
 connectDB()
 
